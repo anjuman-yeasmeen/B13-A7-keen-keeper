@@ -1,16 +1,53 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a personal friendship management dashboard designed to help users nurture and maintain meaningful connections. It tracks interactions, sets relationship goals, and provides visual analytics to ensure no friendship is neglected.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+[Insert Your Live Link Here]
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- **React.js** (Frontend Framework)
+- **React Router DOM** (Navigation)
+- **Tailwind CSS** (Styling)
+- **DaisyUI** (UI Components)
+- **Lucide React** (Icons)
+- **Recharts** (Data Visualization)
+- **React Hot Toast** (Notifications)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+### 1. 📊 Dynamic Friendship Analytics
+Features a visual **Donut Chart** on the Stats page that pulls real-time data from your interactions. It categorizes your relationship efforts into Calls, Texts, and Video chats, giving you a clear picture of how you connect with friends.
+
+### 2. 📜 Interactive Interaction Timeline
+A dedicated Timeline page that logs every check-in. It includes a **Smart Filter** system, allowing users to sort through their history by interaction type (Call, Text, or Video) to quickly find past memories.
+
+### 3. 👤 Comprehensive Friend Tracking
+Each friend has a detailed profile showing their "Days Since Contact" and "Relationship Goals." The system uses **Color-Coded Status Tags** (Overdue, Almost Due, On-Track) to visually alert you when it's time to reach out.
+
+---
+
+## 📱 Responsive Design
+The application is fully optimized for all screen sizes:
+- **Mobile:** Compact grid and accessible navigation.
+- **Tablet:** Adjusted layouts for optimal viewing.
+- **Desktop:** Full 4-column grid display and expanded sidebars.
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+   git clone [Your GitHub Repository Link]
+
+2. Install dependencies:
+   npm install
+
+3. Run the project:
+   npm run dev
